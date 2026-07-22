@@ -2,16 +2,17 @@
 title: SQL查询优化与索引使用指南
 description: 本文总结了29条SQL查询性能优化建议，重点涵盖索引使用、避免全表扫描、NULL值处理、查询语句编写规范以及临时表与游标的合理使用，帮助开发者提升数据库操作效率。
 tags:
-- Java
-- sql
-- 性能
-- 优化
-- 基础
+  - Java
+  - sql
+  - 性能
+  - 优化
+  - 基础
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-sql-index-optimization.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-sql-index-optimization.webp'
 date: '2025-09-04 14:57:00'
 recommend: true
+abbrlink: 5569a14c
 ---
 
 1. 对查询进行优化，要尽量避免全表扫描，首先应考虑在where及order by涉及的列上建立索引。

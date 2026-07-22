@@ -2,16 +2,17 @@
 title: Shiro与JWT整合实现分布式认证
 description: 本文介绍了在分布式系统中使用Shiro进行权限控制，结合JWT替代Session解决跨域和集群认证问题，包含核心代码实现和配置示例。
 tags:
-- Java
-- spring
-- spring boot
-- shiro
-- 基础
-- jwt
+  - Java
+  - spring
+  - spring boot
+  - shiro
+  - 基础
+  - jwt
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-shiro-jwt-auth.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-shiro-jwt-auth.webp'
 date: '2025-09-04 14:57:00'
+abbrlink: 195ce805
 ---
 
 一、思路

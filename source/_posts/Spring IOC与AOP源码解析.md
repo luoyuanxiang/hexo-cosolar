@@ -2,14 +2,15 @@
 title: Spring IOC与AOP源码解析
 description: 本文深入解析Spring框架核心机制IOC和AOP的实现原理，涵盖依赖注入、Bean作用域、代理机制及实际应用场景，帮助开发者深入理解Spring运作机制。
 tags:
-- spring
-- spring boot
-- aop
-- ioc
+  - spring
+  - spring boot
+  - aop
+  - ioc
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-spring-ioc-aop.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-spring-ioc-aop.webp'
 date: '2025-09-04 14:57:00'
+abbrlink: 8a69a632
 ---
 
 ## 概述

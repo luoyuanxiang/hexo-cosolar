@@ -2,14 +2,15 @@
 title: Java代码优化33条实用技巧
 description: 本文详细介绍了33条Java代码优化的实用技巧，涵盖性能提升、内存管理、编码规范等方面，通过具体示例说明如何减少代码体积、提高运行效率，帮助开发者编写更高质量的代码。
 tags:
-- Java
-- 优化
-- 性能
+  - Java
+  - 优化
+  - 性能
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-java-optimization-tips.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-java-optimization-tips.webp'
 date: '2025-09-04 14:57:00'
 recommend: true
+abbrlink: 856b597f
 ---
 
 # **前言**

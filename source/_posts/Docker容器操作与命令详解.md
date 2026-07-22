@@ -2,13 +2,14 @@
 title: Docker容器操作与命令详解
 description: 本文详细介绍了Docker容器的运行命令、参数解析及常用操作，包括MySQL和Redis的容器化部署示例，并涵盖了Docker镜像管理、容器生命周期操作及Dockerfile语法指南。
 tags:
-- docker
-- 基础
+  - docker
+  - 基础
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-docker-commands.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-docker-commands.webp'
 date: '2025-09-04 14:57:00'
 recommend: true
+abbrlink: e9537808
 ---
 
 docker运行容器

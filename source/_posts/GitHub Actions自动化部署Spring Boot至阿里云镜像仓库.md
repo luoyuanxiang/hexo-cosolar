@@ -2,13 +2,14 @@
 title: GitHub Actions自动化部署Spring Boot至阿里云镜像仓库
 description: 本文详细介绍了如何通过GitHub Actions工作流实现Spring Boot项目的自动化构建与部署，包括Docker镜像打包及推送至阿里云容器镜像服务的完整配置流程和注意事项。
 tags:
-- docker
-- GitHub
-- actions
+  - docker
+  - GitHub
+  - actions
 categories:
-- 生活随笔
+  - 生活随笔
 date: '2025-09-05 15:26:34'
-cover: https://cdn.luoyuanxiang.top/cover-github-actions-springboot-acr.webp
+cover: 'https://cdn.luoyuanxiang.top/cover-github-actions-springboot-acr.webp'
+abbrlink: b52cfec1
 ---
 
 # 使用 GitHub Actions 实现 Spring Boot 项目打包并推送至阿里云镜像仓库

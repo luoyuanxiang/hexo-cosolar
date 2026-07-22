@@ -2,15 +2,16 @@
 title: Spring Security JWT认证完整实现
 description: 详细讲解基于Spring Security和JWT的前后端分离认证方案，包括匿名用户处理、权限控制、免认证注解、JWT工具类、过滤器配置和登录接口实现等核心组件。
 tags:
-- Java
-- spring boot
-- spring
-- Spring Security
+  - Java
+  - spring boot
+  - spring
+  - Spring Security
 categories:
-- 开发笔记
+  - 开发笔记
 date: '2025-10-11 20:58:57'
 recommend: true
-cover: https://cdn.luoyuanxiang.top/cover-spring-security-jwt.webp
+cover: 'https://cdn.luoyuanxiang.top/cover-spring-security-jwt.webp'
+abbrlink: '52e4454'
 ---
 
 ## 一、自定义匿名用户访问返回处理：`AnonymousAuthenticationEntryPoint`

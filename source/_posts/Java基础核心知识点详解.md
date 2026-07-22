@@ -2,13 +2,14 @@
 title: Java基础核心知识点详解
 description: 本文系统介绍了Java语言的核心基础概念，包括语言特点、面向对象与面向过程区别、基本数据类型与封装类、命名规则、instanceof关键字、自动装箱与拆箱机制，以及重载与重写的区别，适合Java初学者系统学习。
 tags:
-- Java
-- 基础
+  - Java
+  - 基础
 categories:
-- 开发笔记
-- 生活随笔
-cover: https://cdn.luoyuanxiang.top/cover-java-fundamentals.webp
+  - - 开发笔记
+  - - 生活随笔
+cover: 'https://cdn.luoyuanxiang.top/cover-java-fundamentals.webp'
 date: '2025-09-04 14:57:00'
+abbrlink: cdd12bd3
 ---
 
 ## 基础篇

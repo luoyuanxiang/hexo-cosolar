@@ -2,14 +2,15 @@
 title: Docker Compose配置文件详解
 description: 本文详细解析Docker Compose配置文件的结构与服务配置项，涵盖版本定义、服务部署、网络设置及数据卷配置，并通过具体示例展示各配置参数的用法与注意事项。
 tags:
-- docker
-- docker-compose
-- 基础
+  - docker
+  - docker-compose
+  - 基础
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-docker-compose-config.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-docker-compose-config.webp'
 date: '2025-09-04 14:57:00'
 recommend: true
+abbrlink: d59fe82d
 ---
 
 ### Compose配置文件结构

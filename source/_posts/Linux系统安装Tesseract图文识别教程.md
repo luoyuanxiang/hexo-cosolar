@@ -2,13 +2,14 @@
 title: Linux系统安装Tesseract图文识别教程
 description: 本文详细介绍了在Linux系统中安装Tesseract OCR引擎的完整步骤，包括依赖包下载、环境变量配置、编译安装过程及最终版本验证方法，帮助用户顺利完成安装。
 tags:
-- tesseract
-- shell
-- Linux
+  - tesseract
+  - shell
+  - Linux
 categories:
-- 开发笔记
-image: https://cdn.luoyuanxiang.top/cover-linux-tesseract-ocr.webp
+  - 开发笔记
+image: 'https://cdn.luoyuanxiang.top/cover-linux-tesseract-ocr.webp'
 date: '2025-09-04 14:57:00'
+abbrlink: 5fbf6f72
 ---
 
 ## Linux 安装 Tesseract

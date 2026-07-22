@@ -2,12 +2,13 @@
 title: Shell脚本命令参数使用指南
 description: 本文详细介绍了用于启动、停止、备份和查看日志的Shell脚本命令参数，包括-s/--start启动服务、-stop停止服务、-c/--copy备份项目以及-l/--log查看日志，各命令均需指定端口号操作。
 tags:
-- Linux
-- shell
+  - Linux
+  - shell
 categories:
-- 开发笔记
-cover: https://cdn.luoyuanxiang.top/cover-shell-script-params.webp
+  - 开发笔记
+cover: 'https://cdn.luoyuanxiang.top/cover-shell-script-params.webp'
 date: '2025-09-04 14:57:00'
+abbrlink: bfde2501
 ---
 
 ## 命令参数
