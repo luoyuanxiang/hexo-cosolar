@@ -1,0 +1,33 @@
+# 博客 source/_data/links.yml 示例
+# 主题通过 site.data.links 读取；友链页 layout: links
+
+groups:
+  - name: friends
+    display_name: 好友
+  - name: tech
+    display_name: 技术站点
+
+links:
+  - name: Halo
+    url: https://halo.run
+    logo: https://halo.run/logo.png
+    description: 强大易用的开源建站工具
+    group: tech
+    status: online # online | offline | checking
+    backlink: true # true/false 或 FOUND/MISSING
+
+  - name: Hexo
+    url: https://hexo.io
+    logo: ""
+    description: 快速、简洁且高效的博客框架
+    group: tech
+    status: online
+    backlink: false
+
+  - name: 示例好友
+    url: https://example.com
+    logo: ""
+    description: 互相学习，共同进步
+    group: friends
+    status: checking
+    backlink: MISSING

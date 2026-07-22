@@ -1,0 +1,95 @@
+# 复制到 Hexo 博客根目录为 _config.cosolar.yml（覆盖主题默认配置）
+# 完整字段与中文注释见主题包内 _config.yml
+
+basic:
+  logo_text: 墨韵云阁
+  tagline: 记录技术成长，分享解决方案
+  footer_text: "&copy; 2026 墨韵云阁"
+  icp: ""
+
+style:
+  primary_color: "#10B981"
+  color_scheme: auto # auto | light | dark
+  content_width: 1600
+  default_post_cover: ""
+
+social:
+  author_name: 墨韵云阁
+  author_bio: 热爱技术，乐于分享
+  author_location: 中国-成都
+  author_join_date: "2026-07-22"
+  github: "https://luoyuanxiang.top"
+  email: "1141306760@qq.com"
+  juejin: "https://juejin.cn/user/3104676568636152"
+  csdn: "https://blog.csdn.net/baidu_38296324?spm=1000.2115.3001.5343"
+  zhihu: "https://www.zhihu.com/people/luoyuanxiangvip"
+
+featured:
+  show_featured: true
+  autoplay: true
+  interval: 5000
+  featured_max_count: 5
+  fallback: latest # latest | pinned | none
+  # 精选文章：填写文章 path / slug / 标题
+  featured_posts: []
+  # Hexo 移植版仅实现分页；scroll 暂不生效
+  home_load_mode: pagination
+
+sidebar:
+  show_sidebar: true
+  show_author: true
+  show_announcement: true
+  announcement_content: "欢迎来到我的博客 👋"
+  show_tag_cloud: true
+  show_categories: true
+  show_recent: true
+  show_sidebar_links: true
+  show_sidebar_feeds: false
+
+background_light:
+  bg_type: none # none | image | dynamic
+
+background_dark:
+  bg_type: none
+
+menu:
+  - name: 首页
+    url: /
+    icon: icon-shouye
+  - name: 分类
+    url: /categories/
+    icon: icon-fengfuduoyuan
+  - name: 标签
+    url: /tags/
+    icon: icon-bokexinwen
+  - name: 归档
+    url: /archives/
+    icon: icon-jishufuwu
+  - name: 友链
+    url: /links/
+    icon: icon-kaiyuan
+  - name: 文档          # 可只做分组，不写 url
+    children:
+      - name: Hexo
+        url: https://hexo.io
+        target: _blank
+
+search:
+  enable: true
+  path: search.json
+  placeholder: 搜索文章
+
+comment:
+  provider: twikoo # none | twikoo | waline
+  twikoo:
+    envId: "https://twikoo.luoyuanxiang.top"
+    region: ""
+  waline:
+    serverURL: ""
+
+busuanzi:
+  enable: true
+
+upvote:
+  enable: true
+  provider: local # local | leancloud
