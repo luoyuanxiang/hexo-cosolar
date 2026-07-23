@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 申请友链 / Friend link request
+    url: https://github.com/luoyuanxiang/hexo-cosolar/issues/new?template=friend-link.yml
+    about: 通过表单申请交换友链（自动校验 + 人工审核）
+  - name: 博客主页 / Blog
+    url: https://luoyuanxiang.top/
+    about: 墨韵云阁
