@@ -93,3 +93,36 @@ busuanzi:
 upvote:
   enable: true
   provider: local # local | leancloud
+
+# 友链页申请面板（覆盖主题默认「评论留言」流程）
+links:
+  apply:
+    enable: true
+    site_name: 墨韵云阁
+    site_description: 记录技术成长，分享解决方案
+    site_url: https://luoyuanxiang.top/
+    site_avatar: https://luoyuanxiang.top/images/logo.png
+    button_enable: true
+    button_text: 自助申请友链
+    issue_url: https://github.com/luoyuanxiang/hexo-cosolar/issues/new?template=friend-link.yml
+    pr_enable: true
+    pr_button_text: 提交 PR
+    pr_url: https://github.com/luoyuanxiang/hexo-cosolar/edit/main/source/_data/links.yml
+    steps:
+      - title: 添加本站友链
+        desc: 请先复制左侧本站信息，并添加到贵站的友情链接页
+      - title: 填写 GitHub 申请表
+        desc: 点击下方「自助申请友链」提交站点名称、首页、友链页、描述与头像
+      - title: 自动校验与人工审核
+        desc: 机器人校验可达性与回链后，由维护者审核；通过后自动写入友链列表
+    notice:
+      enable: true
+      title: 友链须知
+      open: true
+      items:
+        - 申请前请先添加本站友链，且友链页可公开访问
+        - 网站需使用域名并启用 HTTPS，不接受 IP 或内网站点
+        - 头像需可被第三方页面直接加载（勿开启防盗链）
+        - 以个人博客 / 技术站点为主，内容健康合规
+        - 不定期检查友链；长期失效、单方面取消或违规内容可能移除
+        - 交换友链即表示同意本站须知与免责声明
