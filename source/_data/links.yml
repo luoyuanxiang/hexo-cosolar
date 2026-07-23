@@ -2,10 +2,10 @@
 # 主题通过 site.data.links 读取；友链页 layout: links
 
 groups:
+  - name: tech
+    display_name: 参考站点
   - name: friends
     display_name: 好友
-  - name: tech
-    display_name: 技术站点
 
 links:
   - name: Halo
@@ -13,21 +13,57 @@ links:
     logo: https://halo.run/logo.png
     description: 强大易用的开源建站工具
     group: tech
-    status: online # online | offline | checking
-    backlink: true # true/false 或 FOUND/MISSING
 
   - name: Hexo
     url: https://hexo.io
-    logo: ""
+    logo: https://hexo.io/logo.svg
     description: 快速、简洁且高效的博客框架
     group: tech
-    status: online
-    backlink: false
+
+  - name: Cosolar
+    url: https://note.minims.cn
+    logo: https://note.minims.cn/upload/favicon.ico
+    description: 记录学习，分享技术，知识沉淀，让成长可见。
+    group: tech
+
+  - name: 楠枝小笺
+    url: https://www.nannax.top
+    logo: https://www.nannax.top/upload/avatar.jpg
+    description: 安安静静地存在，就已经很好啦。
+    group: tech
 
   - name: 示例好友
     url: https://example.com
     logo: ""
     description: 互相学习，共同进步
     group: friends
-    status: checking
-    backlink: MISSING
+
+  - name: 顾梦
+    url: https://blog.gumengyo.top
+    logo: "https://cloud.gumengyo.top/avatar.png"
+    description: 不想满心遗憾，那就全力以赴.
+    group: friends
+
+  - name: 梦爱吃鱼
+    url: https://blog.bsgun.cn/
+    logo: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+    description: 梦爱吃鱼的个人博客，分享技术与生活。"折腾不止，摸鱼生活——摸门🙏🏻"。梦爱吃鱼是一名开源爱好者，结识了许多志同道合的朋友。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。
+    group: friends
+
+  - name: 寻昀 - 于文字间拾光，在代码中筑梦
+    url: https://www.puresky.top
+    logo: https://www.puresky.top/upload/1783700981719.png
+    description: 昀者，日光也。寻昀，不过是在漫长岁月里，打捞那些稍纵即逝的光亮。这里很慢，没有喧嚣，只有字句在安静地生长。若你恰好路过，愿你能带走一片属于自己的光影。
+    group: friends
+
+  - name: 他说
+    url: https://090909.top/
+    logo: https://090909.top/assets/images/logo.ico
+    description: 梁栋烨的博客网站。
+    group: friends
+
+  - name: 灵的梦境
+    url: https://lemonadorable.github.io/
+    logo: https://lemonadorable.github.io/favicon/favicon.gif
+    description: 愿美梦成真
+    group: friends
