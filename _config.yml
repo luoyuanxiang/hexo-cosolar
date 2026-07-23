@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 墨韵云阁
+subtitle: '记录技术成长，分享解决方案'
+description: '记录技术成长，分享解决方案'
 keywords:
-author: John Doe
-language: en
+author: 墨韵云阁
+language: zh-CN
 timezone: ''
 
 # URL
