@@ -73,3 +73,8 @@ links:
     logo: https://miuo.me/avatar.avif
     description: 记录文章、笔记、实验和暂时不想丢掉的内容。
     group: friends
+  - name: 墨韵云阁
+    url: https://luoyuanxiang.top/
+    logo: https://luoyuanxiang.top/images/logo.png
+    description: 记录技术成长，分享解决方案
+    group: friends
