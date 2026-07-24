@@ -7,7 +7,7 @@ tags:
   - Cosolar
 categories:
   - 开发笔记
-cover: 'https://luoyuanxiang.top/images/logo.png'
+cover: https://cdn.luoyuanxiang.top/hexo-theme-cosolar-cover.webp
 recommend: true
 sticky: 1
 abbrlink: b90c2365
