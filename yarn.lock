@@ -832,10 +832,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-cosolar@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/hexo-theme-cosolar/-/hexo-theme-cosolar-1.0.13.tgz#dc6b4af8600f98df0d84d8600cfb4ef1ca5a92c2"
-  integrity sha512-juiImws3Bs/IGpv8pbzOgeBwq6I5wCGATnm3jH3BUK3Jos9MOWkvvC3fOUDxsIP10tk3zO2/IcEMKSRmczU+qg==
+hexo-theme-cosolar@1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/hexo-theme-cosolar/-/hexo-theme-cosolar-1.0.19.tgz#1eb80c340c24856b749454664370b83bf02f7174"
+  integrity sha512-zgsvP9QPdizmZfQPa7Kw6P55oSghItC3BYNWfD7YlLhOKbAI4GMKarL3+jv5j0gRWfH5XejPg1hC6FYNNw2Mog==
 
 hexo-util@4.0.0, hexo-util@^4.0.0:
   version "4.0.0"
