@@ -10,7 +10,7 @@ groups:
 links:
   - name: Halo
     url: https://halo.run
-    logo: https://halo.run/logo.png
+    logo: https://www.halo.run/upload/logo.png
     description: 强大易用的开源建站工具
     group: tech
 
@@ -50,7 +50,6 @@ links:
     group: friends
   - name: 顾梦
     url: https://blog.gumengyo.top
-    logo: "https://cloud.gumengyo.top/avatar.png"
     description: 不想满心遗憾，那就全力以赴.
     group: friends
   - name: 梦爱吃鱼
