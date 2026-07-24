@@ -3,7 +3,7 @@
 
 basic:
   logo_text: 墨韵云阁
-  tagline: 记录技术成长，分享解决方案
+  tagline: 热爱技术，乐于分享
   footer_text: "&copy; 2026 墨韵云阁"
   icp: ""
 
@@ -68,11 +68,17 @@ menu:
   - name: 友链
     url: /links/
     icon: icon-kaiyuan
-  - name: 文档          # 可只做分组，不写 url
+  # 仅分组时必须显式 url: '#'，否则会与主题默认菜单按位合并后误带上 /about/
+  - name: 文档
+    url: '#'
+    icon: icon-blog
     children:
       - name: Hexo
         url: https://hexo.io
         target: _blank
+  - name: 关于
+    url: /about/
+    icon: icon-bokeyuan
 
 search:
   enable: true
@@ -90,6 +96,12 @@ comment:
 busuanzi:
   enable: true
 
+# 回到顶部（全局悬浮按钮）
+back_to_top:
+  enable: true
+  position: right # left | right
+  show_height: 400 # 像素，或 "20%"
+
 upvote:
   enable: true
   provider: local # local | leancloud
@@ -99,7 +111,7 @@ links:
   apply:
     enable: true
     site_name: 墨韵云阁
-    site_description: 记录技术成长，分享解决方案
+    site_description: 热爱技术，乐于分享
     site_url: https://luoyuanxiang.top/
     site_avatar: https://luoyuanxiang.top/images/logo.png
     button_enable: true
@@ -126,3 +138,6 @@ links:
         - 以个人博客 / 技术站点为主，内容健康合规
         - 不定期检查友链；长期失效、单方面取消或违规内容可能移除
         - 交换友链即表示同意本站须知与免责声明
+
+footer:
+  show_footer_main: false

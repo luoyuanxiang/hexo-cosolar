@@ -45,8 +45,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-cosolar:
-        specifier: 1.0.15
-        version: 1.0.15
+        specifier: 1.0.19
+        version: 1.0.19
 
 packages:
 
@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-cosolar@1.0.15:
-    resolution: {integrity: sha512-iU0k59JvovVt/XDQ1aHHWq4h23Apc4VJ5TBClmvntnaeZc8min08Xvu8N2Mpz+bU+XgCWBpCh6xecwEQjMSiDQ==}
+  hexo-theme-cosolar@1.0.19:
+    resolution: {integrity: sha512-zgsvP9QPdizmZfQPa7Kw6P55oSghItC3BYNWfD7YlLhOKbAI4GMKarL3+jv5j0gRWfH5XejPg1hC6FYNNw2Mog==}
     engines: {hexo: '>=6.0.0'}
 
   hexo-util@2.7.0:
@@ -1535,7 +1535,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-cosolar@1.0.15: {}
+  hexo-theme-cosolar@1.0.19: {}
 
   hexo-util@2.7.0:
     dependencies:

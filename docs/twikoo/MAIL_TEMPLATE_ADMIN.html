@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新评论通知 · ${SITE_NAME}</title>
+</head>
+<body style="margin:0;padding:0;background:#F3F4F6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#F3F4F6;padding:32px 12px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:560px;background:#FFFFFF;border-radius:16px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 8px 24px rgba(16,185,129,0.08);">
+          <!-- Header -->
+          <tr>
+            <td style="background:linear-gradient(135deg,#10B981,#059669);padding:28px 28px 24px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="vertical-align:middle;">
+                    <img src="https://luoyuanxiang.top/images/logo.png" alt="${SITE_NAME}" width="40" height="40" style="display:block;border-radius:10px;background:#fff;object-fit:cover;" />
+                  </td>
+                  <td style="padding-left:12px;vertical-align:middle;">
+                    <div style="color:#FFFFFF;font-size:18px;font-weight:700;line-height:1.3;">${SITE_NAME}</div>
+                    <div style="color:rgba(255,255,255,0.85);font-size:13px;margin-top:2px;">收到一条新评论</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Intro -->
+          <tr>
+            <td style="padding:24px 28px 8px;color:#374151;font-size:15px;line-height:1.7;">
+              你好，站长。<br />
+              访客 <strong style="color:#10B981;">${NICK}</strong> 在
+              <a href="${SITE_URL}" style="color:#10B981;text-decoration:none;font-weight:600;">${SITE_NAME}</a>
+              发表了新评论，请及时查看。
+            </td>
+          </tr>
+
+          <!-- Commenter meta -->
+          <tr>
+            <td style="padding:12px 28px 8px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;">
+                <tr>
+                  <td style="padding:14px 16px;">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td style="vertical-align:middle;width:40px;">
+                          <img src="${IMG}" alt="${NICK}" width="40" height="40" style="display:block;border-radius:50%;object-fit:cover;" />
+                        </td>
+                        <td style="padding-left:12px;vertical-align:middle;">
+                          <div style="font-size:15px;font-weight:700;color:#111827;">${NICK}</div>
+                          <div style="font-size:12px;color:#6B7280;margin-top:2px;">新评论通知</div>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-top:14px;">
+                      <tr>
+                        <td style="padding:8px 10px;background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;">
+                          <div style="font-size:11px;color:#9CA3AF;margin-bottom:2px;">邮箱</div>
+                          <div style="font-size:13px;color:#374151;word-break:break-all;">${MAIL}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="height:8px;font-size:0;line-height:0;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:8px 10px;background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;">
+                          <div style="font-size:11px;color:#9CA3AF;margin-bottom:2px;">IP</div>
+                          <div style="font-size:13px;color:#374151;">${IP}</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Comment body -->
+          <tr>
+            <td style="padding:12px 28px 8px;">
+              <div style="font-size:12px;font-weight:600;letter-spacing:0.04em;color:#6B7280;text-transform:uppercase;margin-bottom:8px;">评论内容</div>
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#ECFDF5;border:1px solid #A7F3D0;border-left:4px solid #10B981;border-radius:12px;">
+                <tr>
+                  <td style="padding:16px;font-size:14px;line-height:1.75;color:#065F46;">
+                    ${COMMENT}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td align="center" style="padding:24px 28px 8px;">
+              <a href="${POST_URL}" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#10B981,#059669);color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;padding:12px 28px;border-radius:12px;box-shadow:0 4px 12px rgba(16,185,129,0.35);">
+                前往查看 / 回复
+              </a>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:20px 28px 28px;color:#9CA3AF;font-size:12px;line-height:1.6;text-align:center;">
+              此邮件由 <a href="${SITE_URL}" style="color:#10B981;text-decoration:none;">${SITE_NAME}</a> 评论系统自动发送，请勿直接回复。<br />
+              © 墨韵云阁 · 热爱技术，乐于分享
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
