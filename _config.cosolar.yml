@@ -5,7 +5,8 @@ basic:
   logo_text: 墨韵云阁
   tagline: 热爱技术，乐于分享
   footer_text: "&copy; 2026 墨韵云阁"
-  icp: ""
+  icp: "蜀ICP备2025137681号-1"
+  police_icp: "川公网安备51010502015371号"
 
 style:
   primary_color: "#10B981"
@@ -33,7 +34,7 @@ featured:
   # 精选文章：填写文章 path / slug / 标题
   featured_posts: []
   # Hexo 移植版仅实现分页；scroll 暂不生效
-  home_load_mode: pagination
+  home_load_mode: scroll
 
 sidebar:
   show_sidebar: true
@@ -138,6 +139,3 @@ links:
         - 以个人博客 / 技术站点为主，内容健康合规
         - 不定期检查友链；长期失效、单方面取消或违规内容可能移除
         - 交换友链即表示同意本站须知与免责声明
-
-footer:
-  show_footer_main: false
