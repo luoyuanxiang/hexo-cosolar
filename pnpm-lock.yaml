@@ -45,8 +45,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-cosolar:
-        specifier: 1.0.22
-        version: 1.0.22
+        specifier: 1.0.21
+        version: 1.0.21
 
 packages:
 
@@ -408,7 +408,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-cosolar@1.0.22:
-    resolution: {integrity: sha512-wjLa97mcHoGyYMEXJHACGsvosRWgZnvSVaoI6tITnPgN4E1Inpm8eRuQg48OMsmtIEXOEss6mb6TDpmGTWw1LQ==}
+  hexo-theme-cosolar@1.0.21:
+    resolution: {integrity: sha512-EdP13kTaRWhAUX+yFDcHTv2KSZ2QRN67nLjE1ul3LBUXx9YimYL17gpQi7sUF197H7zspmNZ5pNhMhO0TwKKoQ==}
     engines: {hexo: '>=6.0.0'}
 
   hexo-util@2.7.0:
@@ -1535,7 +1535,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-cosolar@1.0.22: {}
+  hexo-theme-cosolar@1.0.21: {}
 
   hexo-util@2.7.0:
     dependencies:

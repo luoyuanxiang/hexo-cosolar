@@ -24,6 +24,6 @@
     "hexo-renderer-marked": "^7.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-cosolar": "1.0.22"
+    "hexo-theme-cosolar": "1.0.21"
   }
 }
